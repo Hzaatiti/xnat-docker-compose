@@ -46,7 +46,6 @@ smtpPassword=${XNAT_SMTP_PASSWORD}
 smtpAuth=${XNAT_SMTP_AUTH}
 EOF
 fi
-
 mkdir -p /usr/local/share/xnat
 find ${XNAT_HOME}/config -mindepth 1 -maxdepth 1 -type f -exec cp {} /usr/local/share/xnat \;
 
